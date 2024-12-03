@@ -38,7 +38,8 @@ Then, we decided to **detect outliers** to have a better understanding of the di
 **Numerical Feauture Analysis**:
 
 Outliers were identified visually through boxplots of numerical feautures.This helps us to understand and see the data distribution and decide if the it requires outlier handling. This is one of the examples of boxplots we did. 
-<img width="652" alt="Screenshot 2024-12-03 at 19 54 24" src="https://github.com/user-attachments/assets/a03fcf81-a147-40a4-b45e-80909f832e57">
+![boxplot_of_route_optimization_per_second](images/boxplot_of_route_optimization_per_second.png)
+
 **Categorical Feauture Analysis**:
 
 We used countplots to analyze categorical feautures. It might seem weird that we used it for categories, however, we observed them in terms of frequency. How frequent each of the appear and have an influence on our target value. Since their values are very close to each other, so we added a numerical values on top of each bar, so it will be easier to observe and distinguish them. 
