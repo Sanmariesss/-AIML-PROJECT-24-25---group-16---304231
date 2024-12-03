@@ -87,23 +87,38 @@ We chose R² (Coefficient of Determination), RMSE (Root Mean Squared Error) and 
 
 
 # Experimental Design
-- Placeholder for experimental setup (model choices, metrics).
+## Experiment: Model Comparison and Evaluation
+
+### The Main Purpose:
+This experiment aimed to evaluate and compare the performance of different machine learning models (Linear Regression, Random Forest, and Gradient Boosting) in predicting drone cargo capacity using the Aeropolis dataset. The goal was to identify the most accurate model for predicting cargo capacity based on various operational and environmental factors.
+
+### Baselines:
+- **Baseline Model**: Linear Regression was chosen as the baseline due to its simplicity and widespread use in regression problems. It provides a straightforward benchmark for comparing more complex models.
+- **Comparison Models**: Random Forest and Gradient Boosting were selected as alternative models, given their effectiveness in capturing non-linear relationships and complex patterns in the data.
+
+### Evaluation Metrics:
+- **R² (R-squared)**: R² was used to evaluate how well the model explains the variance in cargo capacity. A higher R² indicates a better fit between the model's predictions and the actual values, showing the model's ability to capture the underlying trends.
+  
+- **RMSE (Root Mean Squared Error)**: RMSE was employed to assess the average error in the model’s predictions. Lower RMSE values suggest that the model is more accurate in its predictions. This metric is particularly useful in evaluating the model's performance relative to the scale of the cargo capacity.
+
+### Summary:
+In this experiment, we compared multiple models to identify the best approach for predicting drone cargo capacity. Both R² and RMSE were used as evaluation metrics to assess model accuracy and fit. Linear Regression served as the baseline model, and Random Forest and Gradient Boosting were tested to explore whether more sophisticated models could offer improved performance.
+
+
+
 
 # Results
 ## Main Findings
 The final results indicate that the Linear Regression model performed the best among the models tested, demonstrating the highest R² score of 0.70 and the lowest RMSE of 0.88 on the test set. The R² score suggests that the model explains 70% of the variance in cargo capacity, indicating a strong relationship between the features and the target variable. The RMSE of 0.88 means that, on average, the model’s predictions are off by just 0.88 kg, which is relatively low, indicating that the model makes accurate predictions. These results emphasize the model's reliability in capturing the relationship between the input features and cargo capacity, while maintaining computational efficiency.
 ### Model Performance Comparison
-The table below summarizes the performance of the three models evaluated, due to its combination of the highest R² score and the lowest RMSE.
+The table below summarizes the performance of the three models evaluated
 | Model               | R²   | RMSE  |
 |---------------------|-------|-------|
 | Linear Regression   | 0.70  | 0.88  |
 | Random Forest       | 0.69  | 0.89  |
 | Gradient Boosting   | 0.69  | 0.88  |
 
-- **R² (R-squared)** indicates how well the model explains the variance in the target variable. A higher R² means the model captures more of the underlying patterns, so we aim for the highest R² possible.
-- **RMSE (Root Mean Squared Error)** measures the average error between predicted and actual values. A lower RMSE means the model makes more accurate predictions.
-
-By selecting the highest R² and lowest RMSE, we ensure the model both fits the data well and provides accurate predictions.
+By selecting the highest R² and lowest RMSE, we ensure the Linear Regression model both fits the data well and provides accurate predictions.
 
 ### Results Visualization 
 This scatter plot is based on the predictions from the Linear Regression model compared to the actual test set values. The purpose of creating this plot was to see how well the model's predictions align with reality. The red dashed line represents perfect predictions, where the predicted values match the actual ones. 
