@@ -13,7 +13,7 @@ In the city of Aeropolis, delivery drones are essential for transporting goods q
 
 # Results
 ## Main Findings
-The final results indicate that the Linear Regression model achieved the best performance among the models tested. Because it demonstrated the highest R² score of **0.70** and the lowest RMSE of **0.88** on the test set. These results emphasize the model's reliability in effectively capturing the relationship between the features and cargo capacity while ensuring computational efficiency.
+The final results indicate that the Linear Regression model performed the best among the models tested, demonstrating the highest R² score of 0.70 and the lowest RMSE of 0.88 on the test set. The R² score suggests that the model explains 70% of the variance in cargo capacity, indicating a strong relationship between the features and the target variable. The RMSE of 0.88 means that, on average, the model’s predictions are off by just 0.88 kg, which is relatively low, indicating that the model makes accurate predictions. These results emphasize the model's reliability in capturing the relationship between the input features and cargo capacity, while maintaining computational efficiency.
 ### Model Performance Comparison
 The table below summarizes the performance of the three models evaluated, due to its combination of the highest R² score and the lowest RMSE.
 | Model               | R²   | RMSE  |
@@ -22,8 +22,13 @@ The table below summarizes the performance of the three models evaluated, due to
 | Random Forest       | 0.69  | 0.89  |
 | Gradient Boosting   | 0.69  | 0.88  |
 
+- **R² (R-squared)** indicates how well the model explains the variance in the target variable. A higher R² means the model captures more of the underlying patterns, so we aim for the highest R² possible.
+- **RMSE (Root Mean Squared Error)** measures the average error between predicted and actual values. A lower RMSE means the model makes more accurate predictions.
+
+By selecting the highest R² and lowest RMSE, we ensure the model both fits the data well and provides accurate predictions.
+
 ### Results Visualization 
-This scatter plot is based on the predictions from the Linear Regression model compared to the actual test set values. The purpose of creating this plot was to see how well the model's predictions align with reality. The red dashed line represents perfect predictions, where the predicted values match the actual ones. This visualization makes it easier to spot patterns, like how the model handles typical values well but struggles a bit with extreme cases.
+This scatter plot is based on the predictions from the Linear Regression model compared to the actual test set values. The purpose of creating this plot was to see how well the model's predictions align with reality. The red dashed line represents perfect predictions, where the predicted values match the actual ones. 
 
 
 ![True vs Predicted Cargo Capacity](images/true_vs_predicted_cargo_capacity.png)
@@ -37,7 +42,7 @@ This scatter plot is based on the predictions from the Linear Regression model c
 - **Error Distribution**:  
   The scatter around the line appears relatively consistent, meaning the prediction errors are fairly evenly distributed and do not show strong systematic bias.
 
-
+This visualization makes it easier to spot patterns, like how the model handles typical values well but struggles a bit with extreme cases.
 # Conclusions
 - Placeholder for final takeaways and future directions.
 
