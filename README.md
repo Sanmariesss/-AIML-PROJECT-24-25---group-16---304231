@@ -14,7 +14,7 @@ In the city of Aeropolis, delivery drones are essential for transporting goods q
   - **How to recreate an environment**: Set Up the Conda environment. Use this to recreate it:  conda env export > environment.yml command.
 
 **flowchart that illustrates the steps in our machine learning system**
-<img width="910" alt="Screenshot 2024-12-03 at 23 17 30" src="https://github.com/user-attachments/assets/d3097165-794d-43d6-bb7a-def5e53eaba4">
+![flowchart](images/flowchart.png)
 
 
 This project aims to predict the cargo capacity of drones using environmental and operational factors. We think it is a regression model because the target variable, **Cargo Capacity (kg)**, is a continuous numerical value, which logically makes regression the most suitable approach to use.Let's go deeper, why classification or clustering do not suit our project:
