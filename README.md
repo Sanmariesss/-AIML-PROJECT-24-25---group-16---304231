@@ -5,12 +5,17 @@ captain - 304231, member 2 - 305681, member 3 - 304121
 # Introduction
 In the city of Aeropolis, delivery drones are essential for transporting goods quickly and efficiently. However, their cargo capacity (Cargo_Capacity_kg) can be affected by many factors, like weather conditions, terrain type, and the quality of their equipment. The primary aim of this project is to build and train a model that predicts the cargo capacity of drones based on multiple environmental and operational factors. These implemented changes would help us to improve delivery efficiency and gain a deeper understanding of impacts of drone performance.
 
+
 # Methods
 ## Tools and Environment
   - **Programming Language**: Python
   - **Libraries**:pandas, matplotlib, seaborn, scikit - learn, numpy.
   - **Environment**: Jupyter Notebook
   - **How to recreate an environment**: Set Up the Conda environment. Use this to recreate it:  conda env export > environment.yml command.
+
+**flowchart that illustrates the steps in our machine learning system**
+<img width="910" alt="Screenshot 2024-12-03 at 23 17 30" src="https://github.com/user-attachments/assets/d3097165-794d-43d6-bb7a-def5e53eaba4">
+
 
 This project aims to predict the cargo capacity of drones using environmental and operational factors. We think it is a regression model because the target variable, **Cargo Capacity (kg)**, is a continuous numerical value, which logically makes regression the most suitable approach to use.Let's go deeper, why classification or clustering do not suit our project:
 - **Classification**: It's used for categorical target variables, where predictions are assigned discrete classes. It doesn't apply to our case because our target variable is a continuous measurement. We cannot assign any class to it.
