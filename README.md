@@ -23,13 +23,20 @@ The table below summarizes the performance of the three models evaluated, due to
 | Gradient Boosting   | 0.69  | 0.88  |
 
 ### Results Visualization 
-The scatter plot below compares the predicted cargo capacities to the actual values using the Linear Regression model, which achieved the best balance of performance metrics (highest R² and lowest RMSE). The red dashed line represents ideal predictions, where the predicted values perfectly match the actual ones.
+This scatter plot is based on the predictions from the Linear Regression model compared to the actual test set values. The purpose of creating this plot was to see how well the model's predictions align with reality. The red dashed line represents perfect predictions, where the predicted values match the actual ones. This visualization makes it easier to spot patterns, like how the model handles typical values well but struggles a bit with extreme cases.
 
 
-Observations:
-Overall Accuracy: Most points are clustered around the red line, indicating the model performs well for the majority of predictions.
-Extreme Values: There are noticeable deviations at the higher and lower ends of cargo capacities, suggesting the model struggles with extreme cases.
-Error Distribution: The scatter around the line appears relatively consistent, which means the prediction errors are fairly evenly distributed and do not show strong systematic bias.
+![True vs Predicted Cargo Capacity](images/true_vs_predicted_cargo_capacity.png)
+
+#### Observations From Scatter Plot:
+
+- **Overall Accuracy**:  
+  Most points are clustered around the red line, indicating that the model performs well for the majority of predictions.
+- **Extreme Values**:  
+  There are noticeable deviations at the higher and lower ends of cargo capacities, suggesting the model struggles with extreme cases.
+- **Error Distribution**:  
+  The scatter around the line appears relatively consistent, meaning the prediction errors are fairly evenly distributed and do not show strong systematic bias.
+
 
 # Conclusions
 - Placeholder for final takeaways and future directions.
