@@ -10,7 +10,18 @@ In the city of Aeropolis, delivery drones are essential for transporting goods q
 - Placeholder for experimental setup (model choices, metrics).
 
 # Results
-- Placeholder for results. Add visualizations and summaries later.
+## Main Findings
+
+The final results indicate that the Linear Regression model achieved the best performance among the models tested. It demonstrated the highest R² score of **0.70** and the lowest RMSE of **0.88** on the test set. These results suggest that the Linear Regression model provides a simple yet effective approach to predicting drone cargo capacity.
+
+From the Linear Regression model, we analyzed the most influential features impacting cargo capacity. The analysis revealed the following key factors:
+
+1. **Vertical_Landing_Supported**: This feature shows a strong positive impact, indicating drones with vertical landing capability can carry more cargo.
+2. **Flight_Duration_Minutes**: A negative coefficient suggests that longer flight durations reduce the cargo capacity, likely due to energy constraints.
+3. **Market_Region_North**: This feature positively influences cargo capacity, potentially reflecting favorable operational conditions in this region.
+
+These findings highlight the critical operational and environmental factors that influence drone performance, providing actionable insights for optimizing cargo capacity.
+
 
 # Conclusions
 - Placeholder for final takeaways and future directions.
