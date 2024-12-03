@@ -107,5 +107,9 @@ This scatter plot is based on the predictions from the Linear Regression model c
 
 This visualization makes it easier to spot patterns, like how the model handles typical values well but struggles a bit with extreme cases.
 # Conclusions
-- Placeholder for final takeaways and future directions.
+#### Key Takeaways
+This project demonstrated the potential of using machine learning models, specifically Linear Regression, to predict drone cargo capacity based on various factors. The model achieved solid performance with an R² of 0.70 and an RMSE of 0.88, showing good predictive accuracy for the majority of test cases, and highlighting the relationship between the various features and cargo capacity. These results underscore the model’s ability to effectively capture the relationship between input features and cargo capacity, also suggest that this approach could be a reliable tool for understanding and predicting drone performance in real-world applications.
+
+#### Unanswered Questions & Future Work
+However, some questions are still unanswered. For example, the impact of certain environmental factors like wind speed or temperature could not be fully explored due to limitations in the dataset. Additionally, more complex models or feature engineering might improve prediction accuracy, especially for extreme values. In the ffuture work, we could explore using more advanced techniques such as ensemble methods or neural networks, and further collect data to refine our model and include additional factors that may better explain cargo capacity variability.
 
