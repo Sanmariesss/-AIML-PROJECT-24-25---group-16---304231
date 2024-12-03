@@ -31,7 +31,7 @@ Then, after getting some vision, we moved to **EDA(Explanatory Data Analysis)**.
 
 In EDA, we aimed to understand patterns, distributions and correlations of the data. We created visualizations to identify outliers, general trends and relashionships between feautures and our target variable **Cargo Capacity(kg)**. 
 To understand what we are working with, we first wanted to see a target variable distribution. For that reason, we chose to draw histogram using plt disctionary to plot a histogram. 
-<img width="641" alt="Screenshot 2024-12-03 at 20 22 21" src="https://github.com/user-attachments/assets/df98f593-361a-4528-bc13-b25296174798">
+![distribution_of_cargo_capacity_in_kg](images/distribution_of_cargo_capacity_in_kg.png)
 As you can see, the plot shows that the target variable is distributed in the way, where the majority of the drones have moderate cargo capacity (can handle moderate amount of weight), while a few can carry significanly less. 
 Then, we decided to **detect outliers** to have a better understanding of the distribution of outliers in our feauture. 
 
