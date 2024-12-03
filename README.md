@@ -43,7 +43,8 @@ Outliers were identified visually through boxplots of numerical feautures.This h
 **Categorical Feauture Analysis**:
 
 We used countplots to analyze categorical feautures. It might seem weird that we used it for categories, however, we observed them in terms of frequency. How frequent each of the appear and have an influence on our target value. Since their values are very close to each other, so we added a numerical values on top of each bar, so it will be easier to observe and distinguish them. 
-<img width="640" alt="Screenshot 2024-12-03 at 20 42 27" src="https://github.com/user-attachments/assets/b46ece4b-8eb3-43af-9873-0921029d8fec">. This is one of the examples of countplots we did. Each of the bars have more or less similar frequencies, which shows that there is a balanced distribution of flight zones.
+![countplot_of_flight_zone](images/countplot_of_flight_zone.png)
+This is one of the examples of countplots we did. Each of the bars have more or less similar frequencies, which shows that there is a balanced distribution of flight zones.
 
 Now, let's take a closer look into **preprocessing** stage.
 In order to preprocess the dataset for modeling, we applied the following steps:
