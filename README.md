@@ -10,7 +10,7 @@ In the city of Aeropolis, delivery drones are essential for transporting goods q
   - **Programming Language**: Python
   - **Libraries**:pandas, matplotlib, seaborn, scikit - learn, numpy.
   - **Environment**: Jupyter Notebook
-  - **How to recreate an environment**: Set Up the Conda environment. Use this:  conda env export > environment.yml
+  - **How to recreate an environment**: Set Up the Conda environment. Use this to recreate it:  conda env export > environment.yml command.
 
 This project aims to predict the cargo capacity of drones using environmental and operational factors. We think it is a regression model because the target variable, **Cargo Capacity (kg)**, is a continuous numerical value, which logically makes regression the most suitable approach to use.Let's go deeper, why classification or clustering do not suit our project:
 - **Classification**: It's used for categorical target variables, where predictions are assigned discrete classes. It doesn't apply to our case because our target variable is a continuous measurement. We cannot assign any class to it.
