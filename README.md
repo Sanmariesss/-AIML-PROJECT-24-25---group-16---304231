@@ -154,8 +154,7 @@ The impact of certain environmental factors like wind speed or temperature could
 ## Repository Structure
 
 ```
-├── main.ipynb          
-├── aeropolis.csv       
+├── main.ipynb                 
 ├── README.md           
 └── images/             
     ├── true_vs_predicted_cargo_capacity.png
